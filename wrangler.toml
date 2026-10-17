@@ -2,7 +2,7 @@ name = "cloudssh"
 main = "src/worker/index.ts"
 compatibility_date = "2026-07-01"
 workers_dev = true
-
+keep_vars = true
 [vars]
 DEBUG_MODE = "false"
 # 一次性受控 SSH 分享：随部署默认启用（Git 集成/CLI 部署即生效，生产与 test 环境均置 true）。
